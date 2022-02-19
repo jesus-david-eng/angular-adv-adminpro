@@ -16,16 +16,17 @@ import { AppRoutingModule } from '../app-routing.module';
    Grafica1Component,
    PagesComponent,
   ],
-  imports: [
-    CommonModule,
-    SahredModule,
-    AppRoutingModule
-  ],
   exports:[
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-  ]
+  ],
+
+  imports: [
+    CommonModule,
+    SahredModule,
+    AppRoutingModule
+  ],
 })
 export class PagesModule { }

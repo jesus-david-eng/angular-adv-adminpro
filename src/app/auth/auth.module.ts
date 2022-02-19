@@ -11,13 +11,15 @@ import { AppRoutingModule } from '../app-routing.module';
     LoginComponent,
     RegisterComponent,
   ],
+
+  exports: [
+    LoginComponent,
+    RegisterComponent,
+  ],
+  
   imports: [
     CommonModule,
     AppRoutingModule
   ],
-  exports: [
-    LoginComponent,
-    RegisterComponent,
-  ]
 })
 export class AuthModule { }
